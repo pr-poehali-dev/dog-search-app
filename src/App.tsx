@@ -132,7 +132,7 @@ export default function App() {
         <div className="flex items-center justify-between px-4 py-3 max-w-2xl mx-auto">
           <button onClick={() => setPage("home")} className="flex items-center gap-2">
             <span className="text-2xl">🐾</span>
-            <span className="font-caveat text-2xl font-bold" style={{ color: "#E8821A" }}>DogsSearch</span>
+            <span className="font-caveat text-2xl font-bold" style={{ color: "#E8821A" }}>ПёсПоиск</span>
           </button>
           <div className="flex items-center gap-2">
             <button onClick={() => setPage("chat")} className="relative p-2 rounded-xl hover:bg-amber-100 transition-colors" style={{ color: "#8B5E3C" }}>
@@ -153,7 +153,7 @@ export default function App() {
         {page === "home" && (
           <div>
             <div className="relative mx-4 mt-4 rounded-2xl overflow-hidden" style={{ height: 220 }}>
-              <img src={HERO_IMAGE} alt="DogsSearch" className="w-full h-full object-cover" />
+              <img src={HERO_IMAGE} alt="ПёсПоиск" className="w-full h-full object-cover" />
               <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(20,10,0,0.65) 0%, transparent 60%)" }} />
               <div className="absolute bottom-0 left-0 right-0 p-5">
                 <p className="font-caveat text-3xl font-bold text-white mb-1">Найдём вместе 🐾</p>
